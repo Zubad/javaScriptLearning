@@ -37,7 +37,8 @@ padding: 0 10px;
 transition: background .5s; 
 }
 main{
-    margin: 0 25px 0 25px;
+    margin: 0 auto 0 auto;
+    width: 90%;
 }
 #search{
     border: 1px solid grey;
@@ -76,12 +77,12 @@ nav ul li a:hover{
     height: 300px;
     position: absolute;
     padding: 10px;
-    border: 1px solid gray;
-    width: 22%;
+    
+    width: 20%;
     
 }
 .ft-div-two{
-    border: 1px solid gray;
+    
     height: 300px;
     padding: 10px;
     float: right;
@@ -104,20 +105,59 @@ nav ul li a:hover{
 .ft-doc-foot{
     width: 90%;
     clear: both;
-    position:absolute;
+    position:relative;
     margin-top: 200px;
-    height: 100px;
-    
+    height: 100px;   
 }
 .personPic{
-    width: 90px;
-    height: 90px;
-    border: 1px solid grey;
+    width: 60px;
+    height: 60px;
+    
     border-radius: 50%;
-    margin: 5px auto auto 15px;
+    margin: 30px auto auto 15px;
 }
 .iconPic{
-    width: 70px;
-    height: 70px;
-    margin: 5px 15px 5px 50px;
+    width: 40px;
+    height: 40px;
+    margin: auto auto auto 115px;
+}
+#secondTable{
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.st-div-one{
+    
+    height: 250px;
+    position: relative;
+    padding: 10px;
+    
+    width: 80%;
+    
+}
+.st-div-two{
+    
+    height: 250px;
+    padding: 10px;
+    
+    position: relative;
+    width: 80%;
+}
+.secondPics{
+    height: 250px;
+    margin: auto;
+    width: 100%;
+}
+.st-doc-foot{
+    width: 90%;
+    clear: both;
+    position:relative;
+    margin-top: 150px;
+    height: 100px;   
+}
+.secondIconPic{
+    width: 40px;
+    height: 40px;
+    margin: auto auto auto 145px;
 }
